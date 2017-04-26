@@ -7,6 +7,11 @@ html {
   height: auto;
 }
 
+img {
+  height: auto !important;
+  max-width: 100% !important;
+}
+
 header {
   white-space:nowrap;
   padding-left: 15px;
@@ -19,7 +24,6 @@ body {
   background-color: rgba(255, 255, 255, 0.95);
   border-radius: 12px;
   width: 1050px;
-  /*min-height: 950px;*/
 }
 
 @media (max-width:610px) {
