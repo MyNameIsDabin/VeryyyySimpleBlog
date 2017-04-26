@@ -1,0 +1,36 @@
+#home-container {
+  text-align: center;
+  font-family: 'Jeju Gothic', serif;
+}
+
+#home-container a{
+  text-decoration: none;
+}
+
+.btn-in-home {
+  display: inline-block;
+  margin: 15px;
+  color: black;
+  border-radius: 15px;
+  min-width: 170px;
+  min-height: 170px;
+  font-size: 5rem;
+  padding: 20px;
+  box-shadow: 0px 8px 10px rgb(232, 232, 232);
+  border: 1px solid rgba(195, 195, 195, 0.2);
+  transition: all 0.5s
+}
+
+.btn-in-home:hover {
+  cursor: pointer;
+  color: rgb(255, 89, 85);
+  transform: translateY(8px);
+  box-shadow: 0px 0px 10px rgb(232, 232, 232);
+  transition: all 0.5s
+}
+
+.title-on-btn {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

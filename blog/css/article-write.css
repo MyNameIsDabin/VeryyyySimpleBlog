@@ -1,0 +1,93 @@
+#article-write * {
+  font-family: 'Jeju Gothic', serif;
+}
+
+#article-write select {
+  padding-top: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 8px;
+}
+
+#article-write input {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 2px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 2px;
+}
+
+#article-write p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#article-write button {
+  padding: 6px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#article-write .red-button {
+  background-color: rgb(223, 77, 77);
+  border: 1px solid rgb(204, 61, 61);
+  color: white;
+  margin-top: 5px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.title-container select {
+  float: left;
+  margin-right: 5px;
+}
+
+.title-container input {
+  flex-basis:100%;
+}
+
+.file-uploader {
+  cursor: pointer;
+}
+
+.file-uploader:hover {
+  color: blue;
+}
+
+.file-uploader input {
+  display: none;
+  padding: 0;
+}
+
+.scroll-table table {
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid rgb(232, 232, 232);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.scroll-table table td:nth-child(2n) {
+  text-align:right;
+}
+
+.scroll-table table td:nth-child(2n) a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.scroll-table table td:nth-child(2n) a:hover {
+  color: rgb(255, 89, 85);
+}

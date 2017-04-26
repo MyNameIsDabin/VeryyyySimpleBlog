@@ -1,0 +1,190 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-image: url('/blog/background-img.jpg');
+  background-size: auto;
+  align-items: center;
+  height: auto;
+}
+
+header {
+  white-space:nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  transition: all 0.3s;
+  margin: 45px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  width: 1050px;
+  /*min-height: 950px;*/
+}
+
+@media (max-width:610px) {
+  body {
+    transition: all 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+footer {
+  background-color: rgb(234, 234, 234);
+  color: gray;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+header h1 {
+  margin-top: 8px;
+}
+
+#title {
+  width: 100%;
+  height: 135px;
+  align-items: center;
+  line-height: 135px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Jeju Gothic', serif;
+}
+
+#title a {
+  color : black;
+}
+
+#title-name:link, #title-name:visited { text-decoration: none; }
+
+#title-name:hover { color: rgb(255, 89, 85); text-decoration: none; }
+
+#top-menu {
+  position:absolute;
+  text-align: right;
+  top:4px;
+  right: 10px;
+}
+
+#top-menu button, #top-menu a {
+  font-family: 'Jeju Gothic', serif;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#top-menu button:hover, #top-menu a:hover {
+  color:white;
+}
+
+#top-menu button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  font-family: 'Jeju Gothic', cursive;
+  /*font-family: 'Nanum Gothic'; cursive;*/
+  margin-top: 80px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+  order: 0;
+}
+
+@media (max-width:610px) {
+  article {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.menu-btn:link, .menu-btn:visited { color:black; text-decoration: none; }
+
+.menu-btn:hover { color: rgb(255, 89, 85); text-decoration: none; }
+
+#login-popup, #common-popup {
+  border-radius: 10px;
+  display: none;
+  width: 250px;
+  height: 180px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border: 1px solid gray;
+  margin-left: -125px;
+  margin-top: -90px;
+}
+
+#login-popup input {
+  border-radius: 3px;
+  border: 1px gray solid;
+}
+
+#login-popup button, #common-popup button {
+  border-radius: 3px;
+}
+
+#login-form-email, #login-form-password {
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border: 1px solid black;
+}
+
+#common-popup {
+  width: 200px;
+  height: 140px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+#login-popup-close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.login-popup-btn {
+  background-color: white;
+  border: 0;
+  font-family: 'Nanum Gothic'; cursive;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid gray;
+}
+
+.login-popup-btn:nth-child(2n) {
+  margin-left: 5px;
+}
+
+#common-popup-btn {
+  display: block;
+  position: absolute;
+  left:75px;
+  bottom: 8px;
+}
+
+.normal-button {
+  color:black;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Jeju Gothic', serif;
+  font-weight: bold;
+  color: black;
+}
+
+.normal-button:hover {
+  color:rgb(255, 89, 85);
+}

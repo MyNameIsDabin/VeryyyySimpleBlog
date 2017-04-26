@@ -1,0 +1,51 @@
+#drop-down-menu {
+  box-shadow: 0px 2px 10px rgb(232, 232, 232), 0px -2px 10px rgb(232, 232, 232);
+  font-family: 'Jeju Gothic', serif;
+  font-weight: bold;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 40px;
+  width: 100%;
+  line-height: 15px;
+}
+
+#drop-down-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+#drop-down-menu a:hover {
+  color: rgb(255, 89, 85);
+}
+
+#drop-down-menu ul li {
+  float:left;
+  list-style-type: none;
+  margin-right: 15px;
+  height: 40px;
+}
+
+#drop-down-menu ul ul {
+  display: none;
+  position: absolute;
+  line-height: normal;
+}
+
+#drop-down-menu ul li:hover ul {
+  display: block;
+}
+
+#drop-down-menu li ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+#drop-down-menu ul ul li {
+  float:none;
+  padding: 5px;
+  padding-top: 5px;
+  background-color: white;
+  box-shadow: 0px 5px 5px rgb(232, 232, 232);
+  height: auto;
+}
